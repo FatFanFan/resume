@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>范范的个人简历</title>
+    <script src="//at.alicdn.com/t/font_617845_xpaihuu85ne1att9.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./main.css">
+
+
+
+
+</head>
+<body>
+<div id="siteWelcome" class="site-welcome active">
+    <div class="loading"></div>
+</div>
+<div id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+        <a class="logo" href="#" alt="logo" style="float: left;">
+            <span class="rs">RS</span><span class="card">card</span>
+        </a>
+        <nav class="menu" style="float: right;">
+            <ul class="clearfix">
+                <li><a href="#siteAbout">关于</a></li>
+                <li><a href="#siteSkills">技能</a></l>
+                <li>
+                    <a href="#siteWorks">作品</a>
+                    <ul class="submenu">
+                        <li>作品1</li>
+                        <li>作品2</li>
+                        <li>作品3</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">博客</a>
+                    <ul class="submenu">
+                        <li>博客1</li>
+                        <li>博客2</li>
+                        <li>博客3</li>
+                    </ul>
+                </li>
+
+                <li><a href="#">日历</a></li>
+                <li><a href="#">联系方式</a></li>
+                <li><a href="#">其他</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="banner">
+    <div class="mask"></div>
+</div>
+<main>
+    <div data-x  id="siteAbout" class="userCard">
+        <div class="pictureAndText clearfix">
+            <div class="picture">
+                <img src="./images/qdai.gif" width="299" height="347" alt="头像">
+            </div>
+            <div class="text">
+                <span class="welcome">Hello<span class="sanjiao"></span></span>
+                <h1>范帅兵</h1>
+                <p>前端学习小白</p>
+                <hr>
+                <dl>
+                    <dt>年龄</dt>
+                    <dd>22</dd>
+                    <dt>城市</dt>
+                    <dd>合肥</dd>
+                    <dt>邮箱</dt>
+                    <dd>fatfan1020@gmail.com</dd>
+                    <dt>手机</dt>
+                    <dd>18712510072</dd>
+                </dl>
+            </div>
+        </div>
+        <footer class="media">
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-twitter"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-7"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+            </a>
+        </footer>
+    </div>
+
+    <p class="downloadresumewrapper">
+        <a href="./resume.pdf" class="downloadresume" target="_blank" download>下载 PDF 简历</a>
+    </p>
+    <p class="selfintrodaction">
+        范帅兵 安徽建筑大学在校生 19年毕业
+        技能：初级前端开发
+        </pclass>
+</main>
+<section data-x id="siteSkills" class="skills">
+    <h2 style="text-align: center">技能</h2>
+    <ol class="clearfix">
+        <li>
+            <h3>HTML 5 &amp; CSS 3</h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 50%;"></div>
+            </div>
+        </li>
+        <li>
+            <h3>javaScript</h3>
+            <div class="progressBar">
+                <div class="progress" style="width:30%; "></div>
+            </div>
+        </li>
+        <li>
+            <h3>jQuery</h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 20%;"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Vue.js</h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </li>
+        <li>
+            <h3>React.js</h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Node.js</h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+        </li>
+    </ol>
+</section>
+<section data-x  id="siteWorks" class="portfolio claerfix">
+    <h2>作品集</h2>
+
+    <!-- 这就是 view , 用户看得见的东西-->
+    <!-- Slider main container -->
+    <div id="mySlides">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img src="./images/works/nav-page.jpg" class="swiper-slide">
+          <img src="./images/works/canvas.jpg" class="swiper-slide">
+          <img src="./images/works/apple-style-slides.jpg" class="swiper-slide">
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+
+<script>
+     setTimeout(function(){
+      siteWelcome.classList.remove('active')
+    },100)
+    let specialTags = document.querySelectorAll('[data-x]')
+    for (let i = 0; i < specialTags.length; i++) {
+        specialTags[i].classList.add('offset')
+    }
+    findClosest()
+    window.onscroll = function () {
+        if (window.scrollY > 0) {
+            topNavBar.classList.add('sticky')
+        } else {
+            topNavBar.classList.remove('sticky')
+        }
+        findClosest()
+    }
+
+    function findClosest() {
+        let specialTags = document.querySelectorAll('[data-x]')
+        let minIndex = 0
+        for (let i = 1; i < specialTags.length; i++) {
+            if (Math.abs(specialTags[i].offsetTop - window.scrollY) < Math.abs(specialTags[minIndex].offsetTop - window.scrollY)) {
+                minIndex = i
+            }
+        }
+        // minIndex 就是里窗口顶部最近的元素
+        specialTags[minIndex].classList.remove('offset')
+        let id = specialTags[minIndex].id
+        let a = document.querySelector('a[href="#' + id + '"]')
+        let li = a.parentNode
+        let brothersAndMe = li.parentNode.children
+        for (let i = 0; i < brothersAndMe.length; i++) {
+            brothersAndMe[i].classList.remove('highlight')
+        }
+        li.classList.add('highlight')
+    }
+
+    let liTags = document.querySelectorAll('nav.menu > ul > li')
+    for (let i = 0; i < liTags.length; i++) {
+        liTags[i].onmouseenter = function (x) {
+            x.currentTarget.classList.add('active')
+        }
+        liTags[i].onmouseleave = function (x) {
+            x.currentTarget.classList.remove('active')
+        }
+    }
+    let aTags = document.querySelectorAll('nav.menu > ul >li > a')
+
+    function animate(time) {
+        requestAnimationFrame(animate);
+        TWEEN.update(time);
+    }
+
+    requestAnimationFrame(animate);
+
+    for (let i = 0; i < aTags.length; i++) {
+        aTags[i].onclick = function (x) {
+            x.preventDefault()
+            let a = x.currentTarget
+            let href = a.getAttribute('href')
+            let element = document.querySelector(href)
+            let top = element.offsetTop
+
+            let currentTop = window.scrollY
+            let targetTop = top - 80
+            let s = targetTop - currentTop // 路程
+            var coords = {y: currentTop}; // 起始位置
+            var t = Math.abs((s / 100) * 300) // 时间
+            if (t > 500) {
+                t = 500
+            }
+            var tween = new TWEEN.Tween(coords) // 起始位置
+                .to({y: targetTop}, t) // 结束位置 和 时间
+                .easing(TWEEN.Easing.Cubic.InOut) // 缓动类型
+                .onUpdate(function () {
+                    // coords.y 已经变了
+                    window.scrollTo(0, coords.y) // 如何更新界面
+                })
+                .start(); // 开始缓动
+
+        }
+    }
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.5.0/av-min.js"></script>
+<!-- 模块化 -->
+<script src="./js/init-swiper.js"></script>
+<script src="./js/auto-slide-up.js"></script>
+<script src="./js/sticky-topbar.js"></script>
+<script src="./js/smoothly-navigation.js"></script>
+<script src="./js/message.js"></script>
+</body>
+</html>
