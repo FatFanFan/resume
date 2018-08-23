@@ -5,9 +5,9 @@
     aTags: null,
     init: function(view){
       this.view = view
-      this.initAnimation()
-      this.bindEvents()
-    },
+    this.initAnimation()
+    this.bindEvents()
+},
     initAnimation: function(){
       function animate(time) {
         requestAnimationFrame(animate);
