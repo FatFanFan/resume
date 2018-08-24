@@ -11,7 +11,6 @@
 </head>
 <body>
 
-
 <div id="siteWelcome" class="site-welcome active">
 	<div class="loading"></div>
 </div>
@@ -33,22 +32,18 @@
 		</nav>
 	</div>
 </div>
-<div class="banner">
-	<div class="mask">
-		<div id="particles-js"></div>
+<main style="position: relative">
+	<div class="canvas">
+			<div id="particles-js"></div>
 	</div>
-</div>
-<main >
 	<div data-x id="siteAbout" class="userCard">
 		<div class="pictureAndText clearfix">
 			<div class="picture">
 				<img src="./images/qdai.gif" width="299" height="347" alt="头像">
 			</div>
 			<div class="text">
-				<p class="downloadresumewrapper">
-					<a href="./resume.pdf" class="downloadresume" target="_blank" download>下载 PDF 简历</a>
-				</p>
-				<h1 style="margin: 10px">范帅兵</h1>
+
+				<h1 style="margin: 10px 0">范帅兵</h1>
 				<p>目前安徽建筑大学大四在读,自学前端半年,希望应聘初级前端开发工作</p>
 				<hr>
 				<dl>
@@ -61,6 +56,7 @@
 					<dt>手机</dt>
 					<dd>187125xxxxx</dd>
 				</dl>
+				<a href="./resume.pdf" class="downloadresume" target="_blank" download>下载 PDF 简历</a>
 			</div>
 		</div>
 		<footer class="media">
@@ -77,23 +73,22 @@
 
 		</footer>
 	</div>
+	<section data-x id="siteSkills" class="siteSkills">
+		<div class="skills">
+			<h1 style="font-size: 2em">技能</h1>
+			<div> 11313</div>
+			<div> 11313</div>
+			<div> 11313</div>
+			<div> 11313</div>
+			<div> 11313</div>
+			<div> 11313</div>
+
+		</div>
+	</section>
 </main>
 
-<section>
-	<div class="skills" style="text-align: center;margin-top: 50px;: ">
-	     <h1 style="font-size: 2em">技能</h1>
-         <div>  11313</div>
-		<div>  11313</div>
-		<div>  11313</div>
-		<div>  11313</div>
-		<div>  11313</div>
-		<div>  11313</div>
 
-	</div>
-</section>
-
-
-<div class="portfolio-all">
+<div class="portfolio-all" id="siteWorks" data-x>
 	<h1 style="margin: 20px">作品集</h1>
 	<div class="portfolio">
 		<div class="portfolio-w">
@@ -155,18 +150,11 @@
 </section>
 
 
-
-
-
-
-
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
-
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.7.3/dist/av-min.js"></script>
-<script src="./js/auto-slide-up.js"></script>
+
 <script src="./js/sticky-topbar.js"></script>
+<script src="js/auto-slide-up.js"></script>
 <script src="./js/smoothly-navigation.js"></script>
 <script src="./js/message.js"></script>
 
