@@ -54,6 +54,7 @@ hr {
 
 .topNavBar-inner {
 	padding: 0 16px;
+	text-align: center;
 }
 
 .topNavBar nav {
@@ -61,15 +62,14 @@ hr {
 }
 
 .topNavBar nav > ul {
-	list-style: none;
+
 	margin: 0;
 	padding: 0;
 }
 
 .topNavBar nav > ul > li {
-	float: left;
-	margin-left: 17px;
-	margin-right: 17px;
+	display: inline-block ;
+	margin: 0px 30px;
 	position: relative;
 }
 
