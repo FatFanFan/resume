@@ -116,22 +116,6 @@ hr {
 	}
 }
 
-.topNavBar .logo {
-	font-size: 24px;
-	font-family: 'Arial Black';
-	padding-top: 3px;
-	padding-bottom: 4px;
-}
-
-.topNavBar .logo .rs {
-	margin-right: 4px;
-	color: #58c0f5;
-}
-
-.topNavBar .logo .card {
-	color: #9a9da2;
-}
-
 main {
 	height: 1000px;
 }
@@ -300,9 +284,7 @@ main {
 
 
 
-
-
-
+//作品
 
 .portfolio-all {
 	margin: 40px;
@@ -346,14 +328,7 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
+//博客
 
 
 
