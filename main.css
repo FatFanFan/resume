@@ -62,7 +62,6 @@ hr {
 }
 
 .topNavBar nav > ul {
-
 	margin: 0;
 	padding: 0;
 }
@@ -122,7 +121,7 @@ main {
 
 .canvas{
 	width: 100%;
-	height: 1000px;
+	height: 1400px;
 	background-size: cover;
 	background-position: center center;
 }
@@ -135,7 +134,7 @@ main {
 	position: absolute;
 	left: 50%;
 	margin-left: -470px;
-	margin-top: -850px;
+	margin-top: -1200px;
 }
 
 .h1 {
@@ -216,7 +215,7 @@ main {
 	overflow: hidden;
 }
 
-.userCard .downloadresume {
+.downloadresume {
 	border: 1px solid #9A9DA2;
 	padding: 20px 40px;
 	font-size: 22px;
@@ -228,7 +227,7 @@ main {
 	border-radius: 5px;
 }
 
-.userCard.downloadresume:hover {
+.downloadresume:hover {
 	box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.5);
 	transition: 0.5s;
 }
@@ -270,26 +269,40 @@ main {
 	overflow: hidden;
 }
 
+//技能
 .siteSkills {
-	width: 100px;
-	position: absolute;
-	left: 50%;
-	margin-left: -50px;
-	margin-top: -300px;
+  	text-align: center;
+	margin-top: -650px;
 }
 
 
+.siteSkills > h1{
+	text-align: center;
+	line-height: 1.2;
+	font-weight: normel;
+}
+.skills{
+	width: 100%;
+    height: 500px;
+	margin: 0;
+}
+.siteSkills .skills > div{
+	width: 100%;
+	display: inline-block;
+}
 
-
-
+.siteSkills .skills > div > canvas{
+	width: 100%;
+}
 
 
 //作品
 
 .portfolio-all {
+	margin-top: 500px;
 	margin: 40px;
 	text-align: center;
-	back
+
 }
 
 .portfolio-w {
@@ -338,16 +351,6 @@ main {
 
 
 
-
-
-section.message > h2,
-section.skills > h1 {
-	text-align: center;
-	color: #3d4451;
-	margin-bottom: 100px;
-	line-height: 1.2;
-	font-weight: normel;
-}
 
 
 
