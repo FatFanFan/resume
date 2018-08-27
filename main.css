@@ -3,6 +3,7 @@ body {
 	margin: 0;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
@@ -67,7 +68,7 @@ hr {
 }
 
 .topNavBar nav > ul > li {
-	display: inline-block ;
+	display: inline-block;
 	margin: 0px 30px;
 	position: relative;
 }
@@ -119,14 +120,12 @@ main {
 	height: 1000px;
 }
 
-.canvas{
+.canvas {
 	width: 100%;
 	height: 1400px;
 	background-size: cover;
 	background-position: center center;
 }
-
-
 
 .userCard {
 	max-width: 940px;
@@ -159,9 +158,11 @@ main {
 	width: 55%;
 	margin-left: 40px;
 }
-.userCard dl{
+
+.userCard dl {
 	width: 470px;
 }
+
 .userCard dl dt,
 .userCard dl dd {
 	float: left;
@@ -181,7 +182,7 @@ main {
 }
 
 .userCard > footer.media {
-	background: rgb(25,162,233);
+	background: rgb(25, 162, 233);
 	text-align: center;
 
 }
@@ -269,34 +270,35 @@ main {
 	overflow: hidden;
 }
 
-//技能
+
+
 .siteSkills {
-  	text-align: center;
+	text-align: center;
 	margin-top: -650px;
 }
 
-
-.siteSkills > h1{
+.siteSkills > h1 {
 	text-align: center;
 	line-height: 1.2;
 	font-weight: normel;
 }
-.skills{
+
+.skills {
 	width: 100%;
-    height: 500px;
+	height: 500px;
 	margin: 0;
 }
-.siteSkills .skills > div{
+
+.siteSkills .skills > div {
 	width: 100%;
 	display: inline-block;
 }
 
-.siteSkills .skills > div > canvas{
+.siteSkills .skills > div > canvas {
 	width: 100%;
 }
 
 
-//作品
 
 .portfolio-all {
 	margin-top: 500px;
@@ -341,36 +343,18 @@ main {
 }
 
 
-//博客
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section.message > ol {
 	max-width: 700px;
 	margin: 0 auto;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #58c0f5;
 }
 
 section.message > ol > li {
 	padding: 16px;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #58c0f5;
 }
 
 section.message > form {
 	margin: 10px 0 40px 0;
 }
 
-img {
-	max-width: 70%;
-}
