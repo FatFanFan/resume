@@ -95,7 +95,7 @@
       <path value="$PROJECT_DIR$/particles/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="22" />
     <option name="y" value="41" />
     <option name="width" value="1890" />
