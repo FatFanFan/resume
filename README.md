@@ -3,5 +3,5 @@
 - [源码链接](https://github.com/fatfanfan/resume)
 - 关键词: 原生JS  CSS3 tween.js particles.js leancloud数据库
 echart.js 
-- 简介: 个人在线简历
+- 简介: 个人在线简历,求职初级前端
 -  [个人博客](https://www.jianshu.com/u/21ccc68041d0)
