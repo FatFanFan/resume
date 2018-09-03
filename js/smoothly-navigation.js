@@ -34,13 +34,13 @@
     },
     bindEvents: function(){
       let aTags = this.view.querySelectorAll('nav.menu > ul > li > a')
-      for(let i=0; i<aTags.length; i++){
+      for(let i=0; i<4; i++){
         aTags[i].onclick = (x)=>{
-          x.preventDefault()
-          let a = x.currentTarget
-          let href = a.getAttribute('href') //'#siteAbout'
-          let element = document.querySelector(href)
-          this.scrollToElement(element)
+	          x.preventDefault()
+	          let a = x.currentTarget
+	          let href = a.getAttribute('href') //'#siteAbout'
+	          let element = document.querySelector(href)
+	          this.scrollToElement(element)
         }
       }
     },
