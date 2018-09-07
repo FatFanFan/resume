@@ -8,8 +8,7 @@ AV.init({
 
 var query =new AV.Query('Message');
 query.find()
-    .then(
-        function(messages){
+    .then(function(messages){
             let array =messages.map((item)=>item.attributes)
             array.forEach((item)=>{
                 let li =document.createElement('li')
