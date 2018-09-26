@@ -123,18 +123,17 @@ main {
 
 .canvas {
 	width: 100%;
-	height: 1300px;
+	height: 1350px;
 	background-size: cover;
 	background-position: center center;
 }
 
 .userCard {
-	max-width: 940px;
+  position: absolute;
+	width: 70%;
 	background-color: #ffffff;
-	position: absolute;
-	left: 50%;
-	margin-left: -470px;
-	margin-top: -1100px;
+  margin: -1200px 0  400px ;
+  margin-left: 15%;
 }
 
 .h1 {
@@ -151,9 +150,12 @@ main {
 
 .userCard .picture {
 	float: left;
-	width: 35%;
+	max-width: 35%;
 }
-
+.userCard .picture > img{
+  background-size: cover;
+  max-width: 100%;
+}
 .userCard .text {
 	float: right;
 	width: 55%;
@@ -272,43 +274,47 @@ main {
 }
 
 
-
 .siteSkills {
-	text-align: center;
-	margin-top: -520px;
+	margin-top: -580px;
 }
 
 .siteSkills > h1 {
 	text-align: center;
 	line-height: 1.2;
-	font-weight: normel;
+	font-weight: normal;
 }
-
+.siteSkills > .skills > .skill> h2{
+  margin-left: -20px;
+  text-align: left;
+}
+.siteSkills .skills > div {
+  width: 64%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
 .skills {
 	width: 100%;
 	height: 500px;
-	margin: 0;
 }
-
-.siteSkills .skills > div {
-	width: 100%;
-	display: inline-block;
+.siteSkills .skills >div >ul > li{
+  list-style: initial;
+  line-height: 1.2;
+  margin-top: 8px;
 }
-
-.siteSkills .skills > div > canvas {
-	width: 100%;
-}
-
 
 
 .portfolio-all {
-	margin: 40px;
+  width: 100%;
 }
 
 .portfolio-w {
-	width: 100%;
-	height: 400px;
+	width: 80%;
+	height: 320px;
 	display: flex;
+  margin-left:auto ;
+  margin-right: auto;
 	padding: 20px 0;
 }
 
@@ -329,12 +335,14 @@ main {
 .introduction > a {
 	width: 80px;
 	height: 30px;
-	padding: 15px 10px 10px 10px;
+	padding-top: 8px ;
 	margin: 10px 10px 10px 20px;
 	background: #58c0f5;
 	border-radius: 5px;
 }
-
+.introduction > h2{
+  margin: 20px ;
+}
 .introduction > p {
 	padding: 10px 10px 10px 20px;
 	text-align: left;
@@ -343,6 +351,7 @@ main {
 
 section .message{
 	margin-top: 100px;
+  padding-bottom:100px ;
 }
 section.message > ol {
 	max-width: 700px;
